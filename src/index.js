@@ -20,3 +20,7 @@ exports.index = () => {
     console.log('---------- HELLo ----------')
 } 
 }
+
+function acessibilidade(){
+    console.log('mudar cor')
+} 
