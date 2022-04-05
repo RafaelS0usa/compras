@@ -1,0 +1,37 @@
+
+.box-amarelo {
+    display: flex; 
+    margin: 0; 
+    padding: 1%;
+    background-color: #fff159;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.lista-produtos h2 {
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 2% 2%;
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+h1 {
+    display: inline-block; 
+    max-width: 40%; 
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

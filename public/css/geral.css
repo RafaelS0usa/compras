@@ -1,0 +1,73 @@
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.div-acessibilidade {
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+
+.alto-contraste {
+    background-color: black;
+    color: white;
+}
+
+.menu-principal {
+    display: inline-block;
+    border: 1px solid red;
+    max-width: 30%;
+    padding: 2% 1%;
+}
+
+.menu-principal ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-principal ul li {
+    padding: 1%;
+}
+
+.menu-principal ul li:hover {
+    background-color: aliceblue;
+}
+
+@media all and (max-width: 350px){
+    h1 {
+        font-size: 1rem;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .user-account {
+        display: none;
+    }
+}
+
+@media all and (min-width: 351px) and (max-width: 560px){
+    h1 {
+        font-size: 1,2rem;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+}
+
+h1 {
+    color: black;
+}
+
